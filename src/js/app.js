@@ -6,13 +6,13 @@ console.log('worked');
 console.log(sum([1, 2]));
 
 class Character {
-    constructor (name, type, health, level, attack, defence) {
+    constructor (name, type) {
         this.name = name;
         this.type = type;
-        this.health = health;
-        this.level = level;
-        this.attack = attack;
-        this.defence = defence;
+        this.health = 100;
+        this.level = 1;
+        this.attack = undefined;
+        this.defence = undefined;
     }
 
     levelUp() {
@@ -35,36 +35,48 @@ class Character {
 
 export class Bowerman extends Character {
     constructor (name) {
-        super(name, 'Bowerman', 100, 1, 25, 25);
+        super(name, 'Bowerman');
+        this.attack = 25;
+        this.defence = 25;
     }
 }
 
 export class Swordsman extends Character {
     constructor (name) {
-        super(name, 'Swordsman', 100, 1, 40, 10);
+        super(name, 'Swordsman');
+        this.attack = 40;
+        this.defence = 10;
     }
 }
 
 export class Magician extends Character {
     constructor (name) {
-        super(name, 'Magician', 100, 1, 10, 40);
+        super(name, 'Magician');
+        this.attack = 10;
+        this.defence = 40;
     }
 }
 
 export class Daemon extends Character {
     constructor (name) {
         super(name, 'Daemon', 100, 1, 10, 40);
+        this.attack = 10;
+        this.defence = 40;
     }
 }
 
 export class Undead extends Character {
     constructor (name) {
-        super(name, 'Undead', 100, 1, 25, 25);
+        super(name, 'Undead');
+        this.attack = 25;
+        this.defence = 25;
     }
 }
 
 export class Zombie extends Character {
     constructor (name) {
         super(name, 'Zombie', 100, 1, 40, 10);
+        this.attack = 40;
+        this.defence = 10;
     }
 }
