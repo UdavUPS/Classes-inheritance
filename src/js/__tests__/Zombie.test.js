@@ -1,4 +1,4 @@
-import { Zombie } from '../app';
+import { Zombie } from '../Class/Zombie';
 
 
 test('Проверка создоваемого объекта Zombie', () => {

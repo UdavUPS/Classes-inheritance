@@ -1,4 +1,4 @@
-import { Swordsman } from '../app';
+import { Swordsman } from '../Class/Swordsman';
 
 
 test('Проверка создоваемого объекта Swordsman', () => {

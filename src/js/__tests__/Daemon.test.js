@@ -1,4 +1,4 @@
-import { Daemon } from '../app';
+import { Daemon } from '../Class/Daemon';
 
 
 test('Проверка создоваемого объекта Daemon', () => {

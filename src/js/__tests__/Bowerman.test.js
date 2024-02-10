@@ -1,4 +1,4 @@
-import { Bowerman } from '../app';
+import { Bowerman } from '../Class/Bowerman';
 
 
 test('Проверка создоваемого объекта Bowerman', () => {

@@ -1,4 +1,4 @@
-import { Undead } from '../app';
+import { Undead } from '../Class/Undead';
 
 
 test('Проверка создоваемого объекта Undead', () => {
