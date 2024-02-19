@@ -2,7 +2,7 @@ import { Bowerman } from '../Class/Bowerman';
 
 
 test('Проверка создоваемого объекта Bowerman', () => {
-    let Monst = new Bowerman('Вася');
+    let Monst = new Bowerman('Вася', 'Bowerman');
     const TestObdject = {
       name:'Вася',
       type: 'Bowerman',

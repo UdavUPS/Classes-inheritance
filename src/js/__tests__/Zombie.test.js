@@ -2,7 +2,7 @@ import { Zombie } from '../Class/Zombie';
 
 
 test('Проверка создоваемого объекта Zombie', () => {
-    let Monst = new Zombie('Вася');
+    let Monst = new Zombie('Вася', 'Zombie');
     const TestObdject = {
       name:'Вася',
       type: 'Zombie',

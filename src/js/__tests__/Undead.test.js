@@ -2,7 +2,7 @@ import { Undead } from '../Class/Undead';
 
 
 test('Проверка создоваемого объекта Undead', () => {
-    let Monst = new Undead('Вася');
+    let Monst = new Undead('Вася', 'Undead');
     const TestObdject = {
       name:'Вася',
       type: 'Undead',

@@ -2,7 +2,7 @@ import { Daemon } from '../Class/Daemon';
 
 
 test('Проверка создоваемого объекта Daemon', () => {
-    let Monst = new Daemon('Вася');
+    let Monst = new Daemon('Вася', 'Daemon');
     const TestObdject = {
       name:'Вася',
       type: 'Daemon',

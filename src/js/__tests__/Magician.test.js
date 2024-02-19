@@ -2,7 +2,7 @@ import { Magician } from '../Class/Magician';
 
 
 test('Проверка создоваемого объекта Magician', () => {
-    let Monst = new Magician('Вася');
+    let Monst = new Magician('Вася', 'Magician');
     const TestObdject = {
       name:'Вася',
       type: 'Magician',
